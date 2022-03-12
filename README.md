@@ -15,3 +15,55 @@ Settings menu
 Enable / disable
 Easy to use (for me)
 MIDI messages flows over the USB cable to computer. Hairless MIDI receiver takes the serial port signals and sends to MIDI channels.
+
+Wiring is really easy. I will explain step by step
+
+1 - Oled SDA to A4
+
+2 - Oled SCL to A5
+
+3 - Oled GND to GND, VCC to +5
+
+4 - Encoder GND to GND, VCC to +5
+
+5 - Encoder sw to switch pin defined in code
+
+6 - Encoder CLK to Digital 2 pin
+
+7 - Encoder Data to Digital 3 pin
+
+8 - Joystick GND to GND, +5 to +5,
+
+9 - Joystick x to A0, y to A1,
+
+10 - Potantiometers to other analog pins
+
+Hairless MIDI tracks serial messages so baud rates must be same. Hairless midi default baud rate is 115200.
+
+Hairless MIDI receives serial messages so you have to get this data and send to MIDI port. loopMIDI can handle this job really nicely. It provides virtual MIDI input and output ports.
+
+Wiring is really easy. I will explain step by step
+
+1 - Oled SDA to A4
+
+2 - Oled SCL to A5
+
+3 - Oled GND to GND, VCC to +5
+
+4 - Encoder GND to GND, VCC to +5
+
+5 - Encoder sw to switch pin defined in code
+
+6 - Encoder CLK to Digital 2 pin
+
+7 - Encoder Data to Digital 3 pin
+
+8 - Joystick GND to GND, +5 to +5,
+
+9 - Joystick x to A0, y to A1,
+
+10 - Potantiometers to other analog pins
+
+Hairless MIDI tracks serial messages so baud rates must be same. Hairless midi default baud rate is 115200.
+
+Hairless MIDI receives serial messages so you have to get this data and send to MIDI port. loopMIDI can handle this job really nicely. It provides virtual MIDI input and output ports.
