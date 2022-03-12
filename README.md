@@ -16,6 +16,9 @@ Enable / disable
 Easy to use (for me)
 MIDI messages flows over the USB cable to computer. Hairless MIDI receiver takes the serial port signals and sends to MIDI channels.
 
+https://www.youtube.com/watch?v=Ju9ZYOijpMo
+
+
 Wiring is really easy. I will explain step by step
 
 1 - Oled SDA to A4
